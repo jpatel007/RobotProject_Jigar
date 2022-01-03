@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.3 on win32)" generated="20220103 10:37:24.010" rpa="false" schemaversion="2">
+<suite id="s1" name="RobotProject1" source="C:\Users\jpatel79\OneDrive - UHG\Jigar\GitHub\RobotProject_Jigar\RobotProject1">
+<suite id="s1-s1" name="Smoke" source="C:\Users\jpatel79\OneDrive - UHG\Jigar\GitHub\RobotProject_Jigar\RobotProject1\Smoke">
+<suite id="s1-s1-s1" name="SmokeTestSuit1" source="C:\Users\jpatel79\OneDrive - UHG\Jigar\GitHub\RobotProject_Jigar\RobotProject1\Smoke\SmokeTestSuit1.robot">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test Suite Set up</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220103 10:37:24.534" level="INFO">I am inside Test Suite Set up</msg>
+<status status="PASS" starttime="20220103 10:37:24.534" endtime="20220103 10:37:24.534"/>
+</kw>
+<test id="s1-s1-s1-t1" name="SeleniumSmokeTest">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test Case Set Up</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220103 10:37:24.535" level="INFO">I am inside Test Case Set Up</msg>
+<status status="PASS" starttime="20220103 10:37:24.535" endtime="20220103 10:37:24.535"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220103 10:37:24.536" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" starttime="20220103 10:37:24.535" endtime="20220103 10:37:41.927"/>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220103 10:37:41.927" endtime="20220103 10:37:41.930"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220103 10:37:41.999" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220103 10:37:41.931" endtime="20220103 10:37:41.999"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name=q</arg>
+<arg>Jigar Patel Optum</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220103 10:37:42.000" level="INFO">Typing text 'Jigar Patel Optum' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20220103 10:37:41.999" endtime="20220103 10:37:42.079"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name=q</arg>
+<arg>ESCAPE</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20220103 10:37:42.080" level="INFO">Sending key(s) ('ESCAPE',) to name=q element.</msg>
+<msg timestamp="20220103 10:37:42.351" level="INFO">Pressing special key ESCAPE to element.</msg>
+<msg timestamp="20220103 10:37:42.352" level="INFO">Releasing special key ESCAPE.</msg>
+<status status="PASS" starttime="20220103 10:37:42.080" endtime="20220103 10:37:42.358"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220103 10:37:42.468" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220103 10:37:42.358" endtime="20220103 10:37:42.468"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name=q</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20220103 10:37:42.469" level="INFO">Sending key(s) ('ENTER',) to name=q element.</msg>
+<msg timestamp="20220103 10:37:42.743" level="INFO">Pressing special key ENTER to element.</msg>
+<msg timestamp="20220103 10:37:42.743" level="INFO">Releasing special key ENTER.</msg>
+<status status="PASS" starttime="20220103 10:37:42.469" endtime="20220103 10:37:46.877"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220103 10:37:49.891" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220103 10:37:46.877" endtime="20220103 10:37:49.891"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220103 10:37:49.981" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220103 10:37:49.891" endtime="20220103 10:37:49.981"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220103 10:37:49.982" endtime="20220103 10:37:52.190"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test Completed</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220103 10:37:52.191" level="INFO">Test Completed</msg>
+<status status="PASS" starttime="20220103 10:37:52.191" endtime="20220103 10:37:52.191"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside Test Case teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220103 10:37:52.192" level="INFO">I am inside Test Case teardown</msg>
+<status status="PASS" starttime="20220103 10:37:52.192" endtime="20220103 10:37:52.192"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220103 10:37:24.534" endtime="20220103 10:37:52.192"/>
+</test>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside set suite teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220103 10:37:52.194" level="INFO">I am inside set suite teardown</msg>
+<status status="PASS" starttime="20220103 10:37:52.194" endtime="20220103 10:37:52.194"/>
+</kw>
+<status status="PASS" starttime="20220103 10:37:24.302" endtime="20220103 10:37:52.194"/>
+</suite>
+<status status="PASS" starttime="20220103 10:37:24.299" endtime="20220103 10:37:52.196"/>
+</suite>
+<status status="PASS" starttime="20220103 10:37:24.275" endtime="20220103 10:37:52.198"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RobotProject1">RobotProject1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Smoke">RobotProject1.Smoke</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="SmokeTestSuit1">RobotProject1.Smoke.SmokeTestSuit1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
